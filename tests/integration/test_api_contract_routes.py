@@ -3,8 +3,16 @@ from __future__ import annotations
 from services.api.app.main import app
 
 
+def _all_paths() -> set[str]:
+    # app.router.routes перестал быть плоским списком с .path на новых
+    # версиях fastapi (include_router оборачивает вложенные роутеры в
+    # приватный _IncludedRouter) — берём пути из публичной OpenAPI-схемы,
+    # это стабильный контракт независимо от внутреннего устройства роутинга.
+    return set(app.openapi()["paths"].keys())
+
+
 def test_api_contract_routes_exist() -> None:
-    paths = {route.path for route in app.router.routes}
+    paths = _all_paths()
     required = {
         "/api/v1/auth/register",
         "/api/v1/auth/login",
@@ -49,7 +57,7 @@ def test_api_contract_routes_exist() -> None:
 
 
 def test_no_removed_routes_present() -> None:
-    paths = {route.path for route in app.router.routes}
+    paths = _all_paths()
     for path in paths:
         assert "llm" not in path.lower(), f"LLM route present: {path}"
         assert "profile" not in path.lower(), f"Profile route still registered: {path}"
