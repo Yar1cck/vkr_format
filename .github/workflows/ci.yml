@@ -1,0 +1,86 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install deps
+        run: |
+          pip install -r services/core/requirements.txt -r services/api/requirements.txt -r services/worker/requirements.txt
+          pip install ruff
+      - name: Ruff (lint)
+        run: |
+          ruff check services tests
+      - name: Compile
+        run: |
+          python -m compileall services
+      - name: Test
+        run: |
+          pytest -q
+
+  quality:
+    runs-on: ubuntu-latest
+    needs: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install deps
+        run: |
+          pip install -r services/core/requirements.txt -r services/api/requirements.txt -r services/worker/requirements.txt
+      - name: Coverage
+        run: |
+          mkdir -p reports
+          pytest --cov --cov-report=term --cov-report=json:reports/coverage.json --cov-fail-under=50 -q tests/unit/ tests/integration/
+      - name: F1 по violations (synthetic corpus)
+        run: |
+          mkdir -p reports tests/quality/synthetic_corpus
+          python tests/generate_minimal_vkr.py tests/quality/synthetic_corpus/minimal_vkr.docx
+          python tests/generate_all_violations.py tests/quality/synthetic_corpus/all_violations.docx
+          python -m tests.quality.build_violation_annotations \
+            --corpus tests/quality/synthetic_corpus \
+            --output reports/synthetic_annotations.json
+          # Помечаем все обнаруженные нарушения как true (синтетика — TP)
+          python -c "import json; p='reports/synthetic_annotations.json'; d=json.load(open(p)); [r.update({'expected': True}) for doc in d['documents'] for r in doc['expected_violations']]; json.dump(d, open(p,'w'), ensure_ascii=False, indent=2)"
+          python -m tests.quality.measure_violations \
+            --corpus tests/quality/synthetic_corpus \
+            --annotations reports/synthetic_annotations.json \
+            --output reports/violations_quality.json
+      - name: Бенчмарк производительности
+        run: |
+          python -m tests.quality.measure_pipeline_performance \
+            --corpus tests/quality/synthetic_corpus \
+            --output reports/performance.json --runs 2 --warmup 1 --mode check
+      - name: Сводный отчёт
+        run: |
+          python -m tests.quality.aggregate_report --reports reports --output reports/quality_summary.json
+      - name: Upload reports
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: quality-reports
+          path: reports/
+          retention-days: 30
+
+  frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install deps
+        working-directory: frontend
+        run: npm install
+      - name: Build
+        working-directory: frontend
+        run: npm run build

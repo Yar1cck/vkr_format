@@ -1,0 +1,35 @@
+{
+  "_format_version": 1,
+  "_documentation": [
+    "Формат: список объектов с одним документом на запись.",
+    "filename — имя файла docx в корпусе (corpus_dir / filename).",
+    "annotations — список абзацев. Не упомянутые абзацы считаются «не заголовок».",
+    "Для is_heading=true указать level: 1, 2 или 3.",
+    "Для is_heading=false level не нужен."
+  ],
+
+  "documents": [
+    {
+      "doc_id": "ivanov_2024",
+      "filename": "ivanov_vkr.docx",
+      "annotations": [
+        { "paragraph_index": 12, "is_heading": true, "level": 1, "_note": "Введение" },
+        { "paragraph_index": 28, "is_heading": true, "level": 1, "_note": "Глава 1" },
+        { "paragraph_index": 31, "is_heading": true, "level": 2, "_note": "1.1 Постановка задачи" },
+        { "paragraph_index": 45, "is_heading": true, "level": 2, "_note": "1.2 Обзор литературы" },
+        { "paragraph_index": 58, "is_heading": true, "level": 3, "_note": "1.2.1 Зарубежные источники" },
+
+        { "paragraph_index": 67, "is_heading": false, "_note": "Жирный лид-ин «Цели работы:» — не заголовок" },
+        { "paragraph_index": 102, "is_heading": false, "_note": "ALL CAPS аббревиатура внутри абзаца" }
+      ]
+    },
+    {
+      "doc_id": "petrov_2024",
+      "filename": "petrov_vkr.docx",
+      "annotations": [
+        { "paragraph_index": 8, "is_heading": true, "level": 1, "_note": "ОГЛАВЛЕНИЕ — будет в skip" },
+        { "paragraph_index": 35, "is_heading": true, "level": 1, "_note": "Введение" }
+      ]
+    }
+  ]
+}

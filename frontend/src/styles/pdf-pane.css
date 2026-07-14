@@ -1,0 +1,66 @@
+.vkr-pdf-viewport {
+  background: #cbd5e1;
+}
+
+.vkr-pdf-scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28px 24px;
+  gap: 0;
+}
+
+.vkr-pdf-page {
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.vkr-pdf-page canvas {
+  display: block;
+}
+
+/* Override pdf.js default absolute positioning — we keep the text layer
+   aligned with the canvas by stacking via position:absolute on the layer,
+   and setting the parent as the positioning context. */
+.vkr-pdf-page .vkr-pdf-text-layer {
+  position: absolute;
+  inset: 0;
+  color: transparent;
+  user-select: text;
+  line-height: 1;
+}
+
+.vkr-pdf-page .vkr-pdf-text-layer ::selection {
+  background: rgba(59, 130, 246, 0.35);
+}
+
+.vkr-pdf-text-layer span[data-vkr-match='1'] {
+  background: rgba(251, 191, 36, 0.45);
+  border-radius: 2px;
+}
+
+.vkr-pdf-text-layer span[data-vkr-active='1'] {
+  background: rgba(239, 68, 68, 0.45) !important;
+  outline: 2px solid rgba(239, 68, 68, 0.55);
+  border-radius: 2px;
+}
+
+.vkr-pdf-page-label {
+  font: 500 12px system-ui, sans-serif;
+  color: #475569;
+  background: #e2e8f0;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  padding: 4px 12px;
+  margin: 20px 0 28px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  user-select: none;
+}
+
+.vkr-pdf-page-label:last-child {
+  margin-bottom: 0;
+}

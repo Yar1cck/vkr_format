@@ -1,0 +1,66 @@
+# Корневой конфиг репозитория. Сейчас здесь только настройки линтера —
+# зависимости и установка пакетов остаются на requirements.txt в каждом
+# сервисе. Это даёт ruff/CI единое поведение, не заводя миграцию на
+# uv/poetry.
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = [
+    "debug",
+    "storage",
+    "docs",
+    "frontend",
+    "services/api/migrations/versions",
+]
+
+[tool.ruff.lint]
+# Базовый набор: pycodestyle errors/warnings, pyflakes (неиспользуемые
+# импорты/переменные), isort (порядок импортов), pyupgrade (старые
+# идиомы), bugbear (типовые подкапотные баги), simplify (упрощения),
+# comprehensions, naming.
+select = [
+    "E",      # pycodestyle errors
+    "F",      # pyflakes
+    "W",      # pycodestyle warnings
+    "I",      # isort
+    "UP",     # pyupgrade
+    "B",      # bugbear
+    "SIM",    # simplify
+    "C4",     # comprehensions
+]
+
+ignore = [
+    "E501",   # длинные строки — много кириллицы в комментариях, ловить
+              # по символам неинформативно
+    "B008",   # default-аргументы Depends/Form/File — стандартная
+              # практика FastAPI
+    "B904",   # raise X without 'from' — внутри HTTPException-обёрток
+              # сохранять цепочку исключений редко полезно
+    "B007",   # неиспользуемая переменная цикла (часто специально _)
+    "C408",   # dict()/list()-литералы — иногда нужны для readability
+    "SIM102", # collapsible if — два уровня вложенности читабельнее
+    "SIM103", # needless bool — return True/False бывает явнее
+    "SIM105", # contextlib.suppress — try/except/pass иногда яснее
+    "SIM108", # if/else → ternary не всегда читабельнее, особенно
+              # на двух разных ветках с действиями
+    "SIM110", # any()/all() вместо for-loop — читаемость может страдать
+    "UP042",  # str-enum: переход на StrEnum переписывает контракт
+              # сериализации, не сейчас
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["E", "F401", "B"]
+"services/api/migrations/versions/*" = ["E", "F", "W", "I", "UP", "B", "SIM", "C4"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["services"]
+
+[tool.pytest.ini_options]
+markers = [
+    "e2e: требует поднятого docker compose стека (исключается из make test)",
+]
+# По умолчанию e2e не запускаем — для CI достаточно unit/integration.
+addopts = "-m 'not e2e'"
+asyncio_mode = "auto"
+pythonpath = ["."]

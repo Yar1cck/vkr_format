@@ -1,0 +1,25 @@
+[run]
+source =
+    services/core/vkr_core/engine
+branch = True
+omit =
+    */tests/*
+    */migrations/*
+    */__pycache__/*
+    services/core/vkr_core/engine/uno_layout.py
+    services/core/vkr_core/engine/preview.py
+
+[report]
+exclude_lines =
+    pragma: no cover
+    raise NotImplementedError
+    if __name__ == .__main__.:
+    if TYPE_CHECKING:
+    \.\.\.
+precision = 2
+show_missing = True
+skip_covered = False
+
+[json]
+output = reports/coverage.json
+pretty_print = True

@@ -1,0 +1,3157 @@
+{
+  "_format_version": 1,
+  "_generated_by": "tests.quality.build_annotations",
+  "documents": [
+    {
+      "doc_id": "container_processed",
+      "filename": "container_processed.docx",
+      "_source": "container_processed.docx",
+      "annotations": [
+        {
+          "paragraph_index": 26,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 37,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 38,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 39,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 41,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 47,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 48,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 49,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 55,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 61,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 62,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 71,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 82,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 85,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 86,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 91,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 102,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 110,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 113,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 117,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 147,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 148,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 163,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 172,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 199,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 223,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 291,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 297,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 317,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 333,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 356,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 385,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 391,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 402,
+          "is_heading": true,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "container_processed_v2",
+      "filename": "container_processed_v2.docx",
+      "_source": "container_processed_v2.docx",
+      "annotations": [
+        {
+          "paragraph_index": 26,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 37,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 38,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 39,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 41,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 47,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 48,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 49,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 55,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 61,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 62,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 71,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 82,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 85,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 86,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 91,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 102,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 110,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 113,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 117,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 147,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 148,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 163,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 172,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 199,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 223,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 291,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 297,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 317,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 333,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 356,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 385,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 391,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 402,
+          "is_heading": true,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "container_processed_v3",
+      "filename": "container_processed_v3.docx",
+      "_source": "container_processed_v3.docx",
+      "annotations": [
+        {
+          "paragraph_index": 24,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 26,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 37,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 38,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 39,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 41,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 47,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 48,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 49,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 55,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 61,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 62,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 71,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 82,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 85,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 86,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 91,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 102,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 110,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 113,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 117,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 147,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 148,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 163,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 172,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 199,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 223,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 291,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 297,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 317,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 333,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 356,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 385,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 391,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 402,
+          "is_heading": true,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "container_processed_v4",
+      "filename": "container_processed_v4.docx",
+      "_source": "container_processed_v4.docx",
+      "annotations": [
+        {
+          "paragraph_index": 24,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 26,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 37,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 38,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 39,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 41,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 47,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 48,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 49,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 55,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 61,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 62,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 71,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 82,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 85,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 86,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 91,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 102,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 110,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 113,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 117,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 147,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 148,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 163,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 172,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 199,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 223,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 291,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 297,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 317,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 333,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 356,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 385,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 391,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 402,
+          "is_heading": true,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "last_processed",
+      "filename": "last_processed.docx",
+      "_source": "last_processed.docx",
+      "annotations": [
+        {
+          "paragraph_index": 34,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 77,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 91,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 92,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 94,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 103,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 112,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 119,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 121,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 131,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 142,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 157,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 167,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 169,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 171,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 179,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 201,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 214,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 216,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 247,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 273,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 282,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 284,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 294,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 300,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 307,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 309,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 311,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 326,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 341,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 349,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 351,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 362,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 378,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 396,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 398,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 407,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 415,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 425,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 434,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 471,
+          "is_heading": true,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "last_uploaded",
+      "filename": "last_uploaded.docx",
+      "_source": "last_uploaded.docx",
+      "annotations": [
+        {
+          "paragraph_index": 34,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 36,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 50,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 51,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 53,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 62,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 71,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 78,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 80,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 90,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 101,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 116,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 125,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 127,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 129,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 137,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 159,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 172,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 174,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 206,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 233,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 242,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 244,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 254,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 260,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 267,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 269,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 271,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 286,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 301,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 309,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 310,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 312,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 323,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 339,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 357,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 359,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 368,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 376,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 386,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 395,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 431,
+          "is_heading": true,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "processed",
+      "filename": "processed.docx",
+      "_source": "processed2.docx",
+      "annotations": [
+        {
+          "paragraph_index": 26,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 37,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 38,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 39,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 41,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 47,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 48,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 49,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 55,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 61,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 62,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 71,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 82,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 85,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 86,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 91,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 102,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 110,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 113,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 117,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 147,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 148,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 163,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 172,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 199,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 223,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 291,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 297,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 317,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 333,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 356,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 385,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 391,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 402,
+          "is_heading": true,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "processed2",
+      "filename": "processed2.docx",
+      "_source": "processed2.docx",
+      "annotations": [
+        {
+          "paragraph_index": 26,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 37,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 38,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 39,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 41,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 47,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 48,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 49,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 55,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 61,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 62,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 71,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 82,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 85,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 86,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 91,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 102,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 110,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 113,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 117,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 147,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 148,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 163,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 172,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 199,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 223,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 291,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 297,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 317,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 333,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 356,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 385,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 391,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 402,
+          "is_heading": true,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "processed3",
+      "filename": "processed3.docx",
+      "_source": "processed3.docx",
+      "annotations": [
+        {
+          "paragraph_index": 24,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 26,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 37,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 38,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 39,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 41,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 47,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 48,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 49,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 55,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 61,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 62,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 71,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 82,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 85,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 86,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 91,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 102,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 110,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 113,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 117,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 147,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 148,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 163,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 172,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 199,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 223,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 291,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 297,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 317,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 333,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 356,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 385,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 391,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 402,
+          "is_heading": true,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "processed4",
+      "filename": "processed4.docx",
+      "_source": "processed4.docx",
+      "annotations": [
+        {
+          "paragraph_index": 24,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 26,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 37,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 38,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 39,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 41,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 47,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 48,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 49,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 55,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 61,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 62,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 71,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 82,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 85,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 86,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 91,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 102,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 110,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 113,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 117,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 147,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 148,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 163,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 172,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 199,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 223,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 291,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 297,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 317,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 333,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 356,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 385,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 391,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 402,
+          "is_heading": true,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "processed5",
+      "filename": "processed5.docx",
+      "_source": "processed5.docx",
+      "annotations": [
+        {
+          "paragraph_index": 24,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 26,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 37,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 38,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 39,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 41,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 47,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 48,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 49,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 55,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 61,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 62,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 71,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 82,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 85,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 86,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 91,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 102,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 110,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 113,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 117,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 147,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 148,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 163,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 172,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 199,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 223,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 291,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 297,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 317,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 333,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 356,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 385,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 391,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 402,
+          "is_heading": true,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "processed6",
+      "filename": "processed6.docx",
+      "_source": "processed6.docx",
+      "annotations": [
+        {
+          "paragraph_index": 24,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 26,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 37,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 38,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 39,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 41,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 47,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 48,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 49,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 55,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 61,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 62,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 71,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 82,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 85,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 86,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 91,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 102,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 110,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 113,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 117,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 147,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 148,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 163,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 172,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 199,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 223,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 291,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 297,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 317,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 333,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 356,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 385,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 391,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 402,
+          "is_heading": true,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "processed_test4_life (1)",
+      "filename": "processed_test4_life (1).docx",
+      "_source": "processed_test4_life (1).docx",
+      "annotations": [
+        {
+          "paragraph_index": 41,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 51,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 52,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 53,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 61,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 70,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 71,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 79,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 86,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 87,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 88,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 99,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 100,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 101,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 102,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 104,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 105,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 106,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 107,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 108,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 109,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 110,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 111,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 112,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 113,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 114,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 115,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 117,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 119,
+          "is_heading": true,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "test4_file",
+      "filename": "test4_file.docx",
+      "_source": "test4_file.docx",
+      "annotations": [
+        {
+          "paragraph_index": 40,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 49,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 50,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 51,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 59,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 68,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 69,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 99,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 104,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 105,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 106,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 119,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 127,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 128,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 129,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 130,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 131,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 132,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 133,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 134,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 135,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 136,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 137,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 138,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 139,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 140,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 141,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 142,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 143,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 149,
+          "is_heading": true,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "test4_file_processed",
+      "filename": "test4_file_processed.docx",
+      "_source": "test4_file_processed.docx",
+      "annotations": [
+        {
+          "paragraph_index": 42,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 52,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 53,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 54,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 62,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 71,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 72,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 80,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 87,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 88,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 89,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 100,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 101,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 102,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 104,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 105,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 106,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 107,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 108,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 109,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 110,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 111,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 112,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 113,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 114,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 115,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 117,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 118,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 120,
+          "is_heading": true,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "test4_fixed_toc",
+      "filename": "test4_fixed_toc.docx",
+      "_source": "test4_fixed_toc.docx",
+      "annotations": [
+        {
+          "paragraph_index": 42,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 52,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 53,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 54,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 62,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 71,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 72,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 80,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 87,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 88,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 89,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 100,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 101,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 102,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 103,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 105,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 106,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 107,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 108,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 109,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 110,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 111,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 112,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 113,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 114,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 115,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 116,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 118,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 120,
+          "is_heading": true,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "test4_fixed_toc2",
+      "filename": "test4_fixed_toc2.docx",
+      "_source": "test4_fixed_toc2.docx",
+      "annotations": [
+        {
+          "paragraph_index": 42,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 52,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 53,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 54,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 62,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 71,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 72,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 80,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 87,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 88,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 89,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 100,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 101,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 102,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 103,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 105,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 106,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 107,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 108,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 109,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 110,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 111,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 112,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 113,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 114,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 115,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 116,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 118,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 120,
+          "is_heading": true,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "doc_id": "test4_fixed_toc3",
+      "filename": "test4_fixed_toc3.docx",
+      "_source": "test4_fixed_toc3.docx",
+      "annotations": [
+        {
+          "paragraph_index": 30,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 60,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 70,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 71,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 72,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 80,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 89,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 90,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 98,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 105,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 106,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 107,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 118,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 119,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 120,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 121,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 123,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 124,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 125,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 126,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 127,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 128,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 129,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 130,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 131,
+          "is_heading": true,
+          "level": 2
+        },
+        {
+          "paragraph_index": 132,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 133,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 134,
+          "is_heading": true,
+          "level": 3
+        },
+        {
+          "paragraph_index": 136,
+          "is_heading": true,
+          "level": 1
+        },
+        {
+          "paragraph_index": 138,
+          "is_heading": true,
+          "level": 1
+        }
+      ]
+    }
+  ]
+}

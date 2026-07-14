@@ -1,0 +1,214 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/fonts/montserrat-cyrillic.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/fonts/montserrat-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+                 U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
+                 U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background-color: #f3f3f1;
+  @apply text-gray-900;
+  min-height: 100vh;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url('/bg-mesh.webp');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+  pointer-events: none;
+  z-index: 0;
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+}
+
+.card {
+  @apply rounded-xl bg-white p-6 shadow-panel;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-medium transition-colors cursor-pointer;
+}
+
+.btn-primary {
+  @apply btn bg-brand-600 text-white hover:bg-brand-700;
+}
+
+.btn-secondary {
+  @apply btn bg-white text-gray-700 border border-gray-200 hover:bg-gray-50;
+}
+
+.btn-danger {
+  @apply btn bg-white text-danger-600 border border-danger-100 hover:bg-danger-50;
+}
+
+.input {
+  @apply w-full rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm outline-none
+         focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20 transition-colors;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-medium;
+}
+
+.badge-done       { @apply badge bg-emerald-500 text-white; }
+.badge-error      { @apply badge bg-danger-500 text-white; }
+.badge-pending    { @apply badge bg-gray-200 text-gray-600; }
+.badge-processing { @apply badge bg-amber-100 text-amber-700; }
+.badge-warning    { @apply badge bg-orange-100 text-orange-700; }
+
+/* ══════════════════════════════════════════════════════════════════════════
+   ТЁМНАЯ ТЕМА — нейтральный серый, без slate/синевы
+   Специфичность 0-2-0 побеждает утилиты Tailwind (0-1-0).
+   ══════════════════════════════════════════════════════════════════════════ */
+
+/* color-scheme — нативные скроллбары и select */
+:root { color-scheme: light; }
+.dark { color-scheme: dark; }
+aside { color-scheme: dark; }
+
+/* Тело страницы */
+.dark body { background-color: #111111; color: #f0f0f0; }
+
+/* Псевдоэлемент body скрываем — текстура идёт через #root::before */
+.dark body::before { display: none; }
+
+/* Инвертированная текстура карты внутри stacking context #root.
+   position: fixed + z-index: 0 рисуется под карточками (они без explicit z-index).
+   Полупрозрачные карточки (0.88) позволяют ей просвечивать. */
+.dark #root::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url('/bg-mesh.webp');
+  background-size: cover;
+  background-position: center;
+  filter: invert(1) brightness(1.3);
+  opacity: 0.22;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── Фоны утилит ── */
+.dark .bg-white          { background-color: #242424; position: relative; z-index: 1; }
+.dark .bg-gray-50        { background-color: #2a2a2a; }
+.dark .bg-gray-100       { background-color: #2a2a2a; }
+.dark .bg-slate-50       { background-color: #2a2a2a; }
+.dark .bg-slate-100      { background-color: #2e2e2e; }
+.dark .bg-blue-50        { background-color: #242424; }
+.dark .bg-brand-50\/30   { background-color: #252525; }
+.dark .bg-brand-50\/40   { background-color: #282828; }
+.dark .bg-brand-50\/60   { background-color: #2e2e2e; }
+.dark .bg-indigo-50      { background-color: #242424; }
+.dark .bg-amber-50       { background-color: #2a2415; }
+.dark .bg-red-50         { background-color: #2a1515; }
+.dark .bg-emerald-50     { background-color: #152a1e; }
+
+/* ── Текст ── */
+.dark .text-gray-900     { color: #f0f0f0; }
+.dark .text-gray-800     { color: #e8e8e8; }
+.dark .text-gray-700     { color: #cccccc; }
+.dark .text-gray-600     { color: #aaaaaa; }
+.dark .text-gray-500     { color: #909090; }
+.dark .text-gray-400     { color: #888888; }
+.dark .text-slate-800    { color: #e8e8e8; }
+.dark .text-slate-700    { color: #cccccc; }
+.dark .text-slate-600    { color: #aaaaaa; }
+.dark .text-slate-500    { color: #909090; }
+.dark .text-slate-400    { color: #888888; }
+
+/* ── Сайдбар — всегда тёмный, восстанавливаем его цвета (specificity 0-3-0) ── */
+.dark aside .text-slate-400 { color: #909090; }
+.dark aside .text-slate-500 { color: #888888; }
+
+/* ── Границы ── */
+.dark .border-gray-200   { border-color: #3a3a3a; }
+.dark .border-gray-100   { border-color: #333333; }
+.dark .border-slate-200  { border-color: #3a3a3a; }
+.dark .border-slate-100  { border-color: #333333; }
+.dark .divide-gray-100   > * + * { border-color: #333333; }
+.dark .divide-slate-100  > * + * { border-color: #333333; }
+
+/* Tailwind opacity-modifier классы (bg-X/N) — отдельные утилиты, не покрываются bg-X */
+.dark .bg-blue-50\/40   { background-color: #282828 !important; }
+.dark .bg-blue-50\/60   { background-color: #282828 !important; }
+.dark .bg-gray-50\/60   { background-color: #282828 !important; }
+.dark .bg-brand-50\/30  { background-color: #252525 !important; }
+.dark .bg-brand-50\/40  { background-color: #282828 !important; }
+.dark .bg-brand-50\/60  { background-color: #2e2e2e !important; }
+.dark .border-blue-100  { border-color: #3a3a3a !important; }
+.dark .border-blue-200  { border-color: #3a3a3a !important; }
+
+/* ── Hover ── */
+.dark .hover\:bg-gray-50:hover   { background-color: #2a2a2a; }
+.dark .hover\:bg-slate-50:hover  { background-color: #2a2a2a; }
+.dark .hover\:bg-gray-100:hover  { background-color: #2e2e2e; }
+
+/* ── Brand-цвета для DOM-классов (чипы, иконки; btn-primary через @apply — не трогаем) ── */
+.dark .bg-brand-600      { background-color: #484848; }
+.dark .bg-brand-50       { background-color: #242424; }
+
+/* Brand текст — светло-серый в тёмной теме */
+.dark .text-brand-600    { color: #c0c0c0; }
+.dark .text-brand-500    { color: #c0c0c0; }
+.dark .text-brand-700    { color: #d0d0d0; }
+/* Сайдбар: text-brand-400 (.Формат) */
+.dark .text-brand-400    { color: #b0b0b0; }
+aside .text-brand-400    { color: #b0b0b0; }
+
+/* ── Компонентные классы ── */
+.dark .card              { background-color: #1e1e1e; position: relative; z-index: 1; }
+.dark .btn-secondary     { background-color: #2a2a2a; color: #cccccc; border-color: #3a3a3a; }
+.dark .btn-secondary:hover { background-color: #333333; }
+.dark .input             { background-color: #2a2a2a; border-color: #3a3a3a; color: #f0f0f0; }
+.dark .input:focus       { border-color: #5a5a5a; }
+.dark .badge-pending     { background-color: #2a2a2a; color: #aaaaaa; }
+
+/* Правая панель замечаний (StudentPage DetailView) — чуть светлее фона */
+.dark .dark\:bg-\[\#252525\] { background-color: #252525; }
+.dark .dark\:bg-\[\#1e1e1e\] { background-color: #1e1e1e; }
+
+/* ── PDF-вьюер — панель серая, страницы остаются белыми ── */
+.dark .vkr-pdf-viewport  { background: #2a2a2a; }
+
+/* ══════════════════════════════════════════════════════════════════════════ */
+
+/* ── Tiptap inline paragraph editor ─────────────────────────────────────── */
+.paragraph-editor-wrap .tiptap {
+  @apply text-xs text-gray-800 leading-relaxed px-3 py-2 min-h-[3rem] outline-none;
+}
+.paragraph-editor-wrap .tiptap p {
+  margin: 0;
+}
+.paragraph-editor-wrap .tiptap p + p {
+  margin-top: 0.25rem;
+}
+.paragraph-editor-wrap .tiptap.ProseMirror-focused {
+  @apply ring-1 ring-gray-400;
+}

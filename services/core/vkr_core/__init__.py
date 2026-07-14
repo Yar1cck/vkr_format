@@ -1,0 +1,1 @@
+"""Shared VKR core package."""

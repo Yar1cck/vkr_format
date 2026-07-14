@@ -1,0 +1,89 @@
+meta:
+  version: v2.0.0
+  name: "МИИГАиК — Приказ №697-01 от 29.12.2023"
+  effective_date: "2026-04-01"
+  reference: "Приказ №697-01 от 29.12.2023"
+
+page_settings:
+  paper: A4
+  margin_left_mm: 30
+  margin_right_mm: 15
+  margin_top_mm: 20
+  margin_bottom_mm: 20
+  orientation: portrait
+
+body_text_style:
+  font_name: Times New Roman
+  font_size_pt: 14
+  line_spacing: 1.5
+  font_color: "000000"
+  alignment: justify
+  first_line_indent_cm: 1.25
+  space_before_pt: 0
+  space_after_pt: 0
+
+heading_detection:
+  max_length: 200
+  max_words: 14
+  font_jump_pt: 1.0
+  neighbour_long_threshold: 120
+
+structural_elements:
+  title_page:
+    - "выпускная квалификационная работа"
+    - "курсовая работа"
+    - "дипломная работа"
+    - "бакалаврская работа"
+  task:
+    - "задание на выпускную квалификационную работу"
+    - "задание на выпускную"
+  contents:
+    - "содержание"
+    - "оглавление"
+  introduction:
+    - "введение"
+  conclusion:
+    - "заключение"
+  references:
+    - "список использованных источников"
+    - "список литературы"
+    - "библиографический список"
+    - "список использованной литературы"
+    - "список использованных источников и литературы"
+    - "список используемой литературы"
+    - "список используемых источников"
+  terms:
+    - "термины и определения"
+    - "перечень сокращений и обозначений"
+    - "список сокращений и условных обозначений"
+    - "перечень сокращений"
+  appendix_regex: "^приложение\\s+[а-яёa-z]"
+
+forbidden_heading_map:
+  "оглавление": "СОДЕРЖАНИЕ"
+  "обзор литературы": null
+  "теоретическая часть": null
+  "практическая часть": null
+  "теоретический раздел": null
+  "практический раздел": null
+
+numbering_rules:
+  figure_mode: by_chapter
+  table_mode: by_chapter
+  listing_mode: by_chapter
+  validate_citation_sequence: true
+
+caption_style:
+  # Порядок МИИГАиК п.6.13 / ГОСТ 7.32 §6.6.3: наименование таблицы
+  # помещают над таблицей слева, без абзацного отступа.
+  table_first_line_indent_cm: 0.0
+
+volume_limits:
+  min: 40
+  max: 120
+
+report_templates:
+  warning_toc: "Содержание обновлено автоматически. Перед сдачей откройте файл в Word/LibreOffice и нажмите 'Обновить поле' (F9) для проверки номеров страниц."
+
+security:
+  retention_days: 90

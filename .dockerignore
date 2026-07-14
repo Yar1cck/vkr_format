@@ -1,0 +1,54 @@
+# Не тащим в build-контекст ничего лишнего: build идёт быстрее, кэш слоёв
+# не инвалидируется при правке заметок/документации/локальных артефактов.
+
+.git
+.github
+.gitignore
+.dockerignore
+
+# Документация и черновики. docs/normative/ НЕ исключаем — там лежат PDF,
+# которые публично отдаёт /api/v1/normative/reference-docs/{slug} в контейнере
+# api; исключение всей docs/ роняло этот эндпоинт в 404 во всех ролях.
+docs/demo/
+docs/ТЗ.docx
+*.md
+!README.md
+
+# Локальные артефакты разработки
+debug/
+storage/
+minio-data/
+reports/
+uploads/
+
+# Тесты и сгенерированные фикстуры
+tests/fixtures/*.docx
+
+# Python мусор
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.pytest_cache
+.mypy_cache
+.coverage
+htmlcov/
+.venv/
+venv/
+*.egg-info
+
+# Frontend мусор
+frontend/node_modules
+frontend/dist
+node_modules
+
+# Системные / редакторские
+**/.DS_Store
+**/Thumbs.db
+.idea/
+.vscode/
+.claude/
+
+# Чувствительное — берём только пример
+.env
+.env.local
