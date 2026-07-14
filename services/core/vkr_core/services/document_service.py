@@ -56,7 +56,6 @@ _VIOLATION_CATEGORY_BY_TYPE = {
     "figures_renumbered": "Нумерация",
     "tables_renumbered": "Нумерация",
     "caption_renumbered": "Нумерация",
-    "citation_sequence_issue": "Нумерация",
     "formula_numbering_gap": "Нумерация",
     "bibliography_numbering_gap": "Нумерация",
     "bibliography_entries_autonumbered": "Нумерация",
